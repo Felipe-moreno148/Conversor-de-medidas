@@ -17,7 +17,7 @@ function SPA () {
                     <option value="mm">Milímetro</option>
                 </select>
                 <p>
-                    Resultado: <p id='res'></p>
+                    Resultado: <p id='res'>80m</p>
                 </p>
             </form>
         </div>

@@ -1,4 +1,12 @@
-body{
+@font-face {
+    font-family: "Nexa";
+    src: local(url(../assets/fonts/Nexa-ExtraLight.ttf)) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Nexa", "Arial";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,10 +14,30 @@ body{
     width: 100vw;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(#003e57,#003ec4);
+    background-image: linear-gradient(#003e57, #003ec4);
 }
-form{
+
+form {
     padding: 20px;
-    background-color: #6B3894;
+    background-color: #6b3894;
     width: 400px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #e7fffc;
+}
+p {
+    color: #d9e9ff;
+}
+a {
+    color: #f8df51;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#res{
+    color: #f8df51;
 }
