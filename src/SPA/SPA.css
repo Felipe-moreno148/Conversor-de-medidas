@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#003e57,#003ec4);
+}
+form{
+    padding: 20px;
+    background-color: #6B3894;
+    width: 400px;
+}
